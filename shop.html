@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Sklep Aseweczka</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sklep Aseweczka</h1>
+  <p>Masz: <span id="coal">0</span> węgla</p>
+
+  <h2>Ulepszenia</h2>
+  <button id="upgradeBtn">Lepszy kilof (koszt: 50)</button>
+<button id="autoclickerBtn">Kup autoclickera (koszt: 500)</button>  <br><br>
+  <button onclick="location.href='index.html'">Powrót do kopania</button>
+
+  <script src="shop.js"></script>
+</body>
+</html>
+<h2>Ulepszenia kilofa</h2>
+<button onclick="buyPickaxeUpgrade(1, 100)">Kamienny kilof (+1)</button>
+<button onclick="buyPickaxeUpgrade(5, 500)">Żelazny kilof (+5)</button>
+<button onclick="buyPickaxeUpgrade(10, 1500)">Złoty kilof (+10)</button>
+<button onclick="buyPickaxeUpgrade(25, 5000)">Diamentowy kilof (+25)</button>

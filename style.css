@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: monospace;
+}
+
+#clicker {
+  width: 150px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+#shopBtn {
+  margin-top: 20px;
+  background-color: #0077ff;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 30px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#shopBtn:hover {
+  background-color: #005ad1;
+#clicker {
+  width: 150px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+#clicker:active {
+  transform: scale(0.95);
+}
+.asewek-dialog {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
